@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project consists of two main components: an Exploratory Data Analysis (EDA) using Python and an interactive dashboard. We analyzed credit card usage patterns, payment behaviors, and default risks using a dataset from the UCI Machine Learning Repository. The analysis covers default payments, late payments, demographic factors, credit data, payment history, and bill statements of credit card clients.
+This project consists of two main components: an Exploratory Data Analysis (EDA) using Python, Pandas and an interactive dashboard. We analyzed credit card usage patterns, payment behaviors, and default risks using a dataset from the UCI Machine Learning Repository. The analysis covers default payments, late payments, demographic factors, credit utilization ratio data, payment history, and bill statements of credit card clients.
 
 ## Features
 
@@ -51,5 +51,16 @@ The dataset is sourced from the UCI Machine Learning Repository's "Default of Cr
   - JavaScript
   - Tailwind CSS (for styling)
 
-### Members: Jimmy Kim, Ernawaty Ernawaty, Mounika Lingala, Judy Pin, Thet Win
+## Dashboard
+
+You can view our interactive dashboard here: [Credit Card Default Dashboard](https://j91k.github.io/Credit_Card_Default_Dashboard/)
+
+## Team Members
+
+- Jimmy Kim
+- Ernawaty Ernawaty
+- Mounika Lingala
+- Judy Pin
+- Thet Win
+
 
