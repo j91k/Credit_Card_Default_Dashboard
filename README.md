@@ -1,78 +1,55 @@
-# Data Analytics and Visualization Bootcamp
-## University of Toronto
-### Project 3 - Group 1
-### Date: August 21, 2024
+# Credit Card Default Dashboard and EDA
+
+## Project Overview
+
+This project consists of two main components: an Exploratory Data Analysis (EDA) using Python and an interactive dashboard. We analyzed credit card usage patterns, payment behaviors, and default risks using a dataset from the UCI Machine Learning Repository. The analysis covers default payments, late payments, demographic factors, credit data, payment history, and bill statements of credit card clients.
+
+## Features
+
+### Exploratory Data Analysis (EDA)
+- Data extraction and cleaning
+- Statistical analysis of credit card usage patterns
+- Correlation studies between various factors and default/late payments
+- Correlation between credit utilization ratio with various factors
+- Visualization of key trends and insights
+
+### Interactive Dashboard
+- Late Payment Analysis
+- Buying Pattern Behavior Visualization
+- Demographic Insights
+- Credit Utilization Ratio Examination
+
+## Data Source
+
+The dataset is sourced from the UCI Machine Learning Repository's "Default of Credit Card Clients Dataset", containing information on 30,000 credit card clients in Taiwan.
+
+## Project Components
+
+### 1. Exploratory Data Analysis (EDA)
+- **Data Extraction**: Importing and initial processing of the dataset
+- **Data Cleaning**: Handling missing values, outliers, and data inconsistencies
+- **Statistical Analysis**: Descriptive statistics, distribution analysis, correlation studies
+- **Data Visualization**: Creating informative plots and charts for key insights
+
+### 2. Interactive Dashboard
+- Dynamic visualizations of EDA findings
+- Filtering options for data segmentation
+- Summary statistics and key metrics display
+
+## Technologies Used
+
+- **Data Processing and Analysis**: 
+  - Python
+  - Pandas
+  - Numpy
+- **Data Visualization**: 
+  - Matplotlib
+  - Seaborn (for EDA)
+  - D3.js (for interactive dashboard visualizations)
+- **Frontend Development**:
+  - HTML
+  - JavaScript
+  - Tailwind CSS (for styling)
+
 ### Members: Jimmy Kim, Ernawaty Ernawaty, Mounika Lingala, Judy Pin, Thet Win
-### Default of Credit Card Clients 
 
-This project utilizes JavaScript libraries and HTML to create visualizations based on the following analysis pertaining to the Default of Credit Card Clients.
-
-- Age Groups
-- Education
-- Sex
-- Marital Status
-- Correlation Heatmap
-- Credit Utilization Ratio
-- Monthly Spending Trend
-- Account Balance Payment Pattern
-  
-
-Dataset Information
-
-This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
-
-Content - There are 25 variables:
-
-ID: ID of each client
-
-LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit
-
-SEX: Gender (1=male, 2=female)
-
-EDUCATION: (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
-
-MARRIAGE: Marital status (1=married, 2=single, 3=others)
-
-AGE: Age in years
-
-PAY_0: Repayment status in September, 2005 (-1=pay duly, 1=payment delay for one month, 2=payment delay for two months, … 8=payment delay for eight months, 9=payment delay for nine months and above)
-
-PAY_2: Repayment status in August, 2005 (scale same as above)
-
-PAY_3: Repayment status in July, 2005 (scale same as above)
-
-PAY_4: Repayment status in June, 2005 (scale same as above)
-
-PAY_5: Repayment status in May, 2005 (scale same as above)
-
-PAY_6: Repayment status in April, 2005 (scale same as above)
-
-BILL_AMT1: Amount of bill statement in September, 2005 (NT dollar)
-
-BILL_AMT2: Amount of bill statement in August, 2005 (NT dollar)
-
-BILL_AMT3: Amount of bill statement in July, 2005 (NT dollar)
-
-BILL_AMT4: Amount of bill statement in June, 2005 (NT dollar)
-
-BILL_AMT5: Amount of bill statement in May, 2005 (NT dollar)
-
-BILL_AMT6: Amount of bill statement in April, 2005 (NT dollar)
-
-PAY_AMT1: Amount of previous payment in September, 2005 (NT dollar)
-
-PAY_AMT2: Amount of previous payment in August, 2005 (NT dollar)
-
-PAY_AMT3: Amount of previous payment in July, 2005 (NT dollar)
-
-PAY_AMT4: Amount of previous payment in June, 2005 (NT dollar)
-
-PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
-
-PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
-
-default.payment.next.month: Default payment (1=yes, 0=no)
-
-Data Source:
-
-https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/data
