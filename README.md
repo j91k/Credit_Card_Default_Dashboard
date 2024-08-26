@@ -1,8 +1,8 @@
 # Credit Card Default Dashboard and EDA
 
-## Project Overview
+## Project Overview & Purpose
 
-This project consists of two main components: an Exploratory Data Analysis (EDA) using Python, Pandas and an interactive dashboard. We analyzed credit card usage patterns, payment behaviors, and default risks using a dataset from the UCI Machine Learning Repository. The analysis covers default payments, late payments, demographic factors, credit utilization ratio data, payment history, and bill statements of credit card clients.
+This project consists of two main components: an Exploratory Data Analysis (EDA) using Python, Pandas and an interactive dashboard. We analyzed credit card usage patterns, payment behaviors, and default risks using a dataset from the UCI Machine Learning Repository. The analysis covers default payments, late payments, demographic factors, credit utilization ratio data, payment history, and bill statements of credit card clients. The purpose of this project is to analyze payment and spending patterns within a credit card dataset, with a specific focus on identifying default and late payment patterns. 
 
 ## Features
 
@@ -18,6 +18,7 @@ This project consists of two main components: an Exploratory Data Analysis (EDA)
 - Buying Pattern Behavior Visualization
 - Demographic Insights
 - Credit Utilization Ratio Examination
+- The 'Filter by' is a global drop down menu that consist of default, gender, marital status, age group & education
 
 ## Data Source
 
@@ -56,6 +57,10 @@ The dataset is sourced from the UCI Machine Learning Repository's "Default of Cr
 ## Dashboard
 
 You can view our interactive dashboard here: [Credit Card Default Dashboard](https://j91k.github.io/Credit_Card_Default_Dashboard/)
+
+## Data Ethics Concern
+
+When working with the financial dataset, we have prioritized ethical considerations related to privacy, security, and transparency. Although the dataset is anonymized, it contains sensitive information such as financial transactions and credit card payment details. We ensured that our analysis respected privacy by refraining from any attempts to re-identify individuals and secured the dataset to prevent unauthorized access. Additionally, we carefully examined the data for potential biases to avoid any unfair impact on certain groups, particularly based on demographic or socioeconomic factors. By adhering to these principles, we have aimed to maintain integrity and fairness in our analysis.
 
 ## Team Members
 
