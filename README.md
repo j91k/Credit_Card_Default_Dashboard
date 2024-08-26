@@ -42,10 +42,12 @@ The dataset is sourced from the UCI Machine Learning Repository's "Default of Cr
   - Python
   - Pandas
   - Numpy
+    
 - **Data Visualization**: 
   - Matplotlib
   - Seaborn (for EDA)
   - D3.js (for interactive dashboard visualizations)
+    
 - **Frontend Development**:
   - HTML
   - JavaScript
