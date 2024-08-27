@@ -58,6 +58,28 @@ The dataset is sourced from the UCI Machine Learning Repository's "Default of Cr
 
 You can view our interactive dashboard here: [Credit Card Default Dashboard](https://j91k.github.io/Credit_Card_Default_Dashboard/)
 
+Three graphs are displayed at Default
+
+Late Payments (histogram of the number of customers (vertical) with the number of late payments (horizontal) over the 6-month period of the dataset)
+Credit Score (histogram of the number of customers (vertical) with a credit utilization ratio of above 30% or below 30%)
+Average Bill Amount (line graph of average monthly credit card bill balance in dollars (vertical) for each month (horizontal) for each of the 6 age groups in the legend)
+
+To display details by demographic characteristic
+
+Choose the drop down “Filter by:”
+
+All = default
+Gender
+Marital status
+Age group
+Education Level
+
+To disaggregate the “Late Payments” by number of late payments
+Choose the drop down “Select Late Payments
+
+To disaggregate the “Credit Score” by above 30% or below 30%
+Choose the drop down “Credit Score Filter”
+
 ## Data Ethics Concern
 
 When working with the financial dataset, we have prioritized ethical considerations related to privacy, security, and transparency. Although the dataset is anonymized, it contains sensitive information such as financial transactions and credit card payment details. We ensured that our analysis respected privacy by refraining from any attempts to re-identify individuals and secured the dataset to prevent unauthorized access. Additionally, we carefully examined the data for potential biases to avoid any unfair impact on certain groups, particularly based on demographic or socioeconomic factors. By adhering to these principles, we have aimed to maintain integrity and fairness in our analysis.
