@@ -67,11 +67,11 @@ Three graphs are displayed at Default
 To display details by demographic characteristic
 Choose the drop down “Filter by:”
 
-All = default
-Gender
-Marital status
-Age group
-Education Level
+-All = default
+-Gender
+-Marital status
+-Age group
+-Education Level
 
 To disaggregate the “Late Payments” by number of late payments
 Choose the drop down “Select Late Payments
