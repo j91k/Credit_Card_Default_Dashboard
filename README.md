@@ -60,12 +60,11 @@ You can view our interactive dashboard here: [Credit Card Default Dashboard](htt
 
 Three graphs are displayed at Default
 
-Late Payments (histogram of the number of customers (vertical) with the number of late payments (horizontal) over the 6-month period of the dataset)
-Credit Score (histogram of the number of customers (vertical) with a credit utilization ratio of above 30% or below 30%)
-Average Bill Amount (line graph of average monthly credit card bill balance in dollars (vertical) for each month (horizontal) for each of the 6 age groups in the legend)
+- Late Payments (histogram of the number of customers (vertical) with the number of late payments (horizontal) over the 6-month period of the dataset)
+- Credit Score (histogram of the number of customers (vertical) with a credit utilization ratio of above 30% or below 30%)
+- Average Bill Amount (line graph of average monthly credit card bill balance in dollars (vertical) for each month (horizontal) for each of the 6 age groups in the legend)
 
 To display details by demographic characteristic
-
 Choose the drop down “Filter by:”
 
 All = default
